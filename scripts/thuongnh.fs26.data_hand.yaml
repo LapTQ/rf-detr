@@ -1,0 +1,14 @@
+# names: 
+#       0:person 
+#       1:hand
+# nc: 2
+train: /mnt/hdd10tb/Users/thuongnh/datasets/satudora_mix_kita8jo_19k_v2/train
+#- /mnt/hdd10tb/Users/thuongnh/datasets/personGBFace88/train.txt
+# val: /mnt/hdd10tb/Users/thuongnh/datasets/satudora_mix_kita8jo_19k_v2/val
+val: /mnt/hdd10tb/Users/thuongnh/datasets/test_sat_personhand/images
+# test: /mnt/hdd10tb/Users/thuongnh/datasets/satudora_fisheyes_corrected/images/test
+
+# Classes
+nc: 2  # number of classes
+
+names: ["person", "hand"]
