@@ -210,3 +210,8 @@ cache-gh/
 checkpoints/
 releases/
 tasks/
+
+outputs/
+*.engine
+*.onnx
+externals/

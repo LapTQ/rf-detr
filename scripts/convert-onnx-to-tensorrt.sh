@@ -1,0 +1,1 @@
+trtexec --onnx=inference_model.onnx --saveEngine=inference_model.engine 

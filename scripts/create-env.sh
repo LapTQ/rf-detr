@@ -1,6 +1,6 @@
 DIR_PRJ=.
-VENV_PARENT=/mnt/hdd10tb/Users/laptq/rf-detr
-# VENV_PARENT=.
+# VENV_PARENT=/mnt/hdd10tb/Users/laptq/rf-detr
+VENV_PARENT=.
 
 VENV_NAME=.venv
 VENV_PATH=$VENV_PARENT/$VENV_NAME
@@ -12,10 +12,6 @@ fi
 
 source $DIR_PRJ/$VENV_NAME/bin/activate
 which python3
-
-
-# git config user.name "LapTQ"
-# git config user.email "lap.tq4@gmail.com"
 
 pip install -e .[train,loggers]
 
